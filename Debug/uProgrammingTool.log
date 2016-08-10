@@ -1,0 +1,17 @@
+﻿Build started 20.07.2016 19:54:05.
+     1>Project "C:\Users\Nerox\Documents\Visual Studio 2015\Projects\uProgrammingTool\uProgrammingTool\uProgrammingTool.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D "_UNICODE" /D "UNICODE" /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib uProgramming.cpp
+         uProgramming.cpp
+     1>c:\users\nerox\documents\visual studio 2015\projects\uprogrammingtool\uprogrammingtool\uProgramming.h(1474): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+     1>c:\users\nerox\documents\visual studio 2015\projects\uprogrammingtool\uprogrammingtool\uProgramming.h(1475): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+     1>uProgramming.cpp(11): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Nerox\Documents\Visual Studio 2015\Projects\uProgrammingTool\uProgrammingTool\Debug\uProgrammingTool.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\uProgrammingTool.uProgramming.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Nerox\Documents\Visual Studio 2015\Projects\uProgrammingTool\uProgrammingTool\Debug\uProgrammingTool.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\uProgramming.obj
+         "Debug\.NETFramework,Version=v4.5.2.AssemblyAttributes.obj"
+         uProgrammingTool.vcxproj -> C:\Users\Nerox\Documents\Visual Studio 2015\Projects\uProgrammingTool\uProgrammingTool\Debug\uProgrammingTool.exe
+     1>Done Building Project "C:\Users\Nerox\Documents\Visual Studio 2015\Projects\uProgrammingTool\uProgrammingTool\uProgrammingTool.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.30
